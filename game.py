@@ -27,12 +27,12 @@ i = 1
 while chislo !=rand:
 	print('Попытка №: '+str(i))	
 	if chislo < rand:
-		print('Не верно. Попробуйте выбрать число по-больше')
+		print('Не верно. Попробуйте выбрать число побольше')
 		if i % 5 == 0:
 			if raz != 1:
 				print('Подсказка: '+str(check_pod(podskazka))+' разряд числа это: '+str(rand[podskazka]))
 	else:
-		print('Не верно. Попробуйте выбрать число по-меньше')
+		print('Не верно. Попробуйте выбрать число поменьше')
 		if i % 5 == 0:
 			if raz != 1:
 				print('Подсказка: '+str(check_pod(podskazka))+' разряд числа это: '+str(rand[podskazka]))
