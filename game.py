@@ -30,7 +30,7 @@ while chislo !=rand:
 		print('Не верно. Попробуйте выбрать число по-больше')
 		if i % 5 == 0:
 			if raz != 1:
-				print(str('Подсказка: '+check_pod(podskazka))+' разряд числа это: '+str(rand[podskazka]))
+				print('Подсказка: '+str(check_pod(podskazka))+' разряд числа это: '+str(rand[podskazka]))
 	else:
 		print('Не верно. Попробуйте выбрать число по-меньше')
 		if i % 5 == 0:
