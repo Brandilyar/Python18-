@@ -41,7 +41,10 @@ for i in range(3):
 	print('Шарик делает '+str(i+1)+' круг\n')
 	time.sleep(1)	
 pole = get_gambling_field()
-print('Шарик упал на '+str(random_chislo)+' '+pole[random_chislo]['color']+' цвет '+pole[random_chislo]['row']+' '+pole[random_chislo]['twelve']+'\n')
+if random_chislo == 0:
+	print('Шарик упал на число 0')
+else:	
+	print('Шарик упал на '+str(random_chislo)+' '+pole[random_chislo]['color']+' цвет '+pole[random_chislo]['row']+' '+pole[random_chislo]['twelve']+'\n')
 try: 
 	int(stavka)
 	if stavka == random_chislo:
