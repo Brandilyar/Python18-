@@ -36,8 +36,29 @@ header nav{
     justify-content:space-around;
 }
 header nav a{
-    color: rgb(12, 12, 12);
+    color: rgb(8, 87, 233);
     font-size: 1.6em;
     text-decoration: none;
     
 }
+.logo{
+    display: flex;
+    height: 40px;
+    width: 128px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0%;
+}
+footer{
+    background-color: var(--bg-color);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+    display:flex;
+    width: 50%;
+    justify-content:space-around;
+}
+
