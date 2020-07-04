@@ -8,10 +8,10 @@ def degree_recursion(degree,result_list=[]):
     else:
         result = number * degree_recursion(degree-1,result_list)
         result_list.append(result)
-        if degree == count:
+        '''if degree == count:
             return result_list
-        else:
-            return result
+        else:'''
+        return result
 
 def degree_cycle(degree):
     result = []
@@ -20,5 +20,5 @@ def degree_cycle(degree):
         return 1 
     else:
         for i in range(1,degree):
-            result.append(number**i)
+            result=number**i
     return result
